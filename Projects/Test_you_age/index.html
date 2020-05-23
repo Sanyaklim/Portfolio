@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>How old are you?</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<main>
+
+		<h1>How old are you?</h1>
+
+		<div id="img">
+			<div class="wrapper">
+				<div class="btn" id="btnPrev" onclick="prev()">Prev</div>
+				<img class="mySlider" id="slider" src="img/foto1.png" />
+				<div class="btn" id="btnNext" onclick="next()">Next</div>
+			</div>
+		</div>
+		
+		<div id="calc">
+			<div id="calculator">
+				<div class="top">
+					<span class="clear">C</span>
+					<div class="screen"></div>
+				</div>
+
+				<div class="keys">
+					<span>7</span>
+					<span>8</span>
+					<span>9</span>
+					<span class="operator">+</span>
+					<span>4</span>
+					<span>5</span>
+					<span>6</span>
+					<span class="operator">-</span>
+					<span>1</span>
+					<span>2</span>
+					<span>3</span>
+					<span class="operator">÷</span>
+					<span>0</span>
+					<span>.</span>
+					<span class="eval">=</span>
+					<span class="operator">x</span>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	
+	<script src="img.js"></script>
+	<script src="calc.js"></script>
+	
+</body>
+</html>
